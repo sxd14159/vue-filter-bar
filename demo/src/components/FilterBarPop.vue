@@ -84,7 +84,7 @@
         this.initData();
       },
       filterTop(t) {
-        this.bgTop = this.filterTop
+        this.bgTop = document.querySelector('.filterbar').offsetHeight + this.filterTop
       }
     },
     methods: {
