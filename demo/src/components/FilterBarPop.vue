@@ -82,6 +82,9 @@
         this.column = '0 0 ' + 100 / m.tabs.length + '%';
         //初始化数据 
         this.initData();
+      },
+      filterTop(t) {
+        this.bgTop = this.filterTop
       }
     },
     methods: {
