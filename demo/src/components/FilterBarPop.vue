@@ -84,10 +84,10 @@
         this.initData();
       },
       filterTop(t) {
-        if (this.filterTop === 0) {
+        if (this.filterTop === '0') {
           this.bgTop = document.querySelector('.filterbar').offsetHeight + this.filterTop / 1;
         } else {
-          this.bgTop = this.filterTop + 40
+          this.bgTop = parseInt(this.filterTop) + 40
         }
       }
     },
